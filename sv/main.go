@@ -3,8 +3,8 @@ package app
 import (
 	"net/http"
 
-	paArtTmp "github.com/firefirestyle/engine-v01/article/template"
-	paUsrTmp "github.com/firefirestyle/engine-v01/user/template"
+	paArtTmp "github.com/firefirestyle/k07me-engine-v01/article/template"
+	paUsrTmp "github.com/firefirestyle/k07me-engine-v01/user/template"
 )
 
 var usrTemplate = paUsrTmp.NewUserTemplate(usrConfig)
