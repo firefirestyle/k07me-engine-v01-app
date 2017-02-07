@@ -1,0 +1,75 @@
+indexes:
+
+
+- kind: fa
+  properties:
+  - name: Props.Value
+  - name: Updated
+    direction: desc
+
+- kind: fa
+  properties:
+  - name: UserName
+  - name: Props.Value
+  - name: Updated
+    direction: desc
+
+- kind: fa
+  properties:
+  - name: Props.Value
+  - name: Tags.Tag
+  - name: Updated
+    direction: desc
+
+- kind: fa
+  properties:
+  - name: Tags.Tag
+  - name: Updated
+    direction: desc
+
+
+- kind: fu
+  properties:
+  - name: Props.Value
+  - name: Updated
+    direction: desc
+
+
+- kind: fa-blob
+  properties:
+  - name: Owner
+  - name: Updated
+    direction: desc
+
+- kind: fa-blob
+  properties:
+  - name: Parent
+  - name: Updated
+    direction: desc
+
+- kind: fa-blob
+  properties:
+  - name: Parent
+  - name: Name
+  - name: Updated
+    direction: desc
+
+
+- kind: fu-blob
+  properties:
+  - name: Owner
+  - name: Updated
+    direction: desc
+
+- kind: fu-blob
+  properties:
+  - name: Parent
+  - name: Updated
+    direction: desc
+
+- kind: fu-blob
+  properties:
+  - name: Parent
+  - name: Name
+  - name: Updated
+    direction: desc
